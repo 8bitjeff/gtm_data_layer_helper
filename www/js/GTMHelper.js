@@ -17,7 +17,7 @@
         ,'virtualPageTitle' : this.virtualPageTitle
         ,'dimension' : this.dimension
     });
-      console.log("virtual page view",this.virtualPageTitle ,this.virtualPageUrl, "location - ", this.pageViewWithLocation)
+      console.log("virtual page view",this.virtualPageTitle ,this.virtualPageUrl, "location - ", this.dimension)
     };
   }
   window.GTMHelper=this;
